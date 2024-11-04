@@ -1,0 +1,21 @@
+.balance-bg {
+    background-image: url('../../assets/Background Saldo.png'); /* Adjust path if needed */
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Hide Scrollbar */
+.scroll-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
